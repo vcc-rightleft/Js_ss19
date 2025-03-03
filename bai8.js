@@ -1,5 +1,5 @@
 let mua = Number(prompt("Nhap thang: "));
-if (mua <= 3) {
+if (mua <= 3 && mua>0) {
     alert("Mua xuan");
 } else if (mua <= 6) {
     alert("Mua ha");
