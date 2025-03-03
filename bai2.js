@@ -1,10 +1,7 @@
-let Chucai = prompt("Mời bạn nhập để kiểm tra");
-if (Chucai.length === 1) {
-if (Chucai.match(/[a-zA-Z]/)) {
-    alert("Ký tự "+Chucai+ "là chữ cái");
+let chucai = prompt("Mời bạn nhập để kiểm tra");
+let number = chucai.indexOf("1")!==-1||chucai.indexOf("2")!==-1||chucai.indexOf("3")!==-1||chucai.indexOf("4")!==-1||chucai.indexOf("5")!==-1||chucai.indexOf("6")!==-1||chucai.indexOf("7")!==-1||chucai.indexOf("8")!==-1||chucai.indexOf("9")!==-1||chucai.indexOf("0")!==-1;
+if (number == true) {
+    alert("Khong phai chu cai");
 } else {
-    alert("Ký tự " + Chucai + "là chữ cái");
-}
-} else {
-    alert("Không phải chữ cái");
+    alert("ki tu "+chucai+" La chu cai");
 }
